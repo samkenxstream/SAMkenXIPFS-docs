@@ -165,6 +165,7 @@ module.exports = {
                 '/concepts/file-systems',
                 '/concepts/ipfs-gateway',
                 ['https://ipld.io/docs/intro/primer/', 'IPLD (InterPlanetaryLinkedData)' ],
+                '/concepts/ipni',
                 '/concepts/ipns',
                 '/concepts/libp2p',
                 '/concepts/merkle-dag'
@@ -219,7 +220,6 @@ module.exports = {
               collapsable: true,
               children: [
                 '/how-to/observe-peers',
-                '/how-to/exchange-files-between-nodes',
                 '/how-to/peering-with-content-providers'
               ]
             },
@@ -242,7 +242,6 @@ module.exports = {
               collapsable: true,
               children: [
                 '/how-to/address-ipfs-on-web',
-                '/how-to/create-simple-chat-app',
                 '/how-to/browser-tools-frameworks'
               ]
             },
@@ -279,7 +278,6 @@ module.exports = {
               sidebarDepth: 1,
               collapsable: true,
               children: [
-                '/how-to/mint-nfts-with-ipfs',
                 '/how-to/best-practices-for-nft-data'         
               ]
             },
